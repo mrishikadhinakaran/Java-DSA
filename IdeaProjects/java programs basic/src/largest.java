@@ -16,14 +16,5 @@ public class largest {
             max=c;
         }
         System.out.println(max);
-
-
-//           int n=1;
-//           do {
-//               System.out.println(n);
-//               n++;
-//           }while (n<20);
-
-
     }
 }
