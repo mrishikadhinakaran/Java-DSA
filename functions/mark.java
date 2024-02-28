@@ -7,7 +7,7 @@ public class mark {
         System.out.print("enter your marks(out of 100):");
         float marks = in.nextFloat();
         
-        if (marks>91 && marks<100){
+        if (marks>91 && marks<=100){
             System.out.println("your grade--> AA");
         }
         else if (marks>81 && marks<90) {
