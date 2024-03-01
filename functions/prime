@@ -1,0 +1,27 @@
+public class Main {
+
+    public static void main(String[] args) {
+        public static void main (string[]args){
+            int a, b, i, j, prime;
+            System.out.print("Enter lower bound of the interval: ");
+            a = in.nextInt();
+            System.out.print("\nEnter upper bound of the interval: ");
+            b = in.nextInt();
+
+            System.out.printf("\nPrime numbers between %d and %d are: ", a, b);
+            for (i = a; i <= b; i++) {
+                if (i == 1 || i == 0)
+                    continue;
+                prime = 1;
+
+                for (j = 2; j <= i / 2; ++j) {
+                    if (i % j == 0) {
+                        prime = 0;
+                        break;
+                    }
+                }
+                if (prime == 1)
+                    System.out.println(i);
+            }
+        }
+    }
